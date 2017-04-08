@@ -26,7 +26,6 @@ movies.count.times do |i|
 
 		graph.addNode(actorNode)
 		movieNode.addEdge(actorNode)
-		actorNode.addEdge(movieNode)
 	end
 end
 

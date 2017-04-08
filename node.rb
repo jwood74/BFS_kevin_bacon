@@ -11,5 +11,6 @@ class Node
 
 	def addEdge(neighbour)
 		@edges << neighbour
+		neighbour.edges << self
 	end
 end
